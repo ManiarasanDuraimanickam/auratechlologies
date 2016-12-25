@@ -13,11 +13,12 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/contactcontroller")
 public class contactcontroller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+       
     /**
-     * Default constructor. 
+     * @see HttpServlet#HttpServlet()
      */
     public contactcontroller() {
+        super();
         // TODO Auto-generated constructor stub
     }
 
