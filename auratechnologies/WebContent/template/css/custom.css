@@ -1,10 +1,27 @@
 /* your styles go here */
 .logo {
-	width: 65px;
-	height: 65px
-}
+		display: block !important;
+	}
+	.logo-xs{
+		display:none !important;
+	}
 
 .headerbar {
 	position: relative;
 	height: 11%;
+}
+
+div.removeBG {
+	background-color: rgba(0, 0, 0, 0) !important;
+	border-color: rgba(0, 0, 0, 0) !important;
+	border-bottom-color: rgba(0, 0, 0, 0) !important;
+}
+
+@media ( max-width :500px) {
+	.logo {
+		display: none !important;
+	}
+	.logo-xs{
+		display:block !important;
+	}
 }
