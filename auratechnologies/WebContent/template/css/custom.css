@@ -1,13 +1,14 @@
 /* your styles go here */
 .logo {
-		display: block !important;
-	}
-	.logo-xs{
-		display:none !important;
-	}
+	display: block !important;
+}
+
+.logo-xs {
+	display: none !important;
+}
 
 .headerbar {
-	position: relative;
+	position: fixed;
 	height: 11%;
 }
 
@@ -17,11 +18,16 @@ div.removeBG {
 	border-bottom-color: rgba(0, 0, 0, 0) !important;
 }
 
+section.otherpg {
+	height: 0 !important;
+	min-height: 0 !important;
+}
+
 @media ( max-width :500px) {
 	.logo {
 		display: none !important;
 	}
-	.logo-xs{
-		display:block !important;
+	.logo-xs {
+		display: block !important;
 	}
 }
